@@ -12,7 +12,6 @@ const projects = [
         "image": commerceImg,
         "link":"locally hosted palang boi!",
     },
-
 ];
 
 export default projects;
