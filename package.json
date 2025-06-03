@@ -2,7 +2,7 @@
   "name": "mz-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/mz0018/Portfolio2025mz.git",
+  "homepage": "https://mz0018.github.io/Portfolio2025mz",
   "dependencies": {
     "@fontsource/lato": "^5.2.5",
     "@heroicons/react": "^2.2.0",
