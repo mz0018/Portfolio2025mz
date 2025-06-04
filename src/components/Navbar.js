@@ -7,10 +7,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-white px-4 py-2 shadow-lg">
+    <nav className="sticky top-0 z-50 bg-white px-4 py-2 shadow-lg min-h-[64px]">
       <div className="flex items-center justify-between">
         {/* <img src={logo} alt="Logo" className="h-10 w-auto" /> */}
-        <img src={logo} alt="Logo" className="w-50 h-auto" />
+        <img src={logo} alt="Logo" className="w-96 h-auto" />
 
         <button
           onClick={() => setIsOpen(!isOpen)}

@@ -132,7 +132,7 @@ const Content = () => {
             <a href="https://github.com/mz0018" target="_blank" rel="noopener noreferrer">
               <FaGithub className="fill-current hover:text-[#ff914d] cursor-pointer" />
             </a>
-            <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/martinez-hanz-menzi-64bba7306/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="fill-current hover:text-[#ff914d] cursor-pointer" />
             </a>
             <a href="https://facebook.com/HnzMnzMrtnz" target="_blank" rel="noopener noreferrer">
