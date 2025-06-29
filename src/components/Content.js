@@ -36,7 +36,7 @@ const Content = () => {
     <>
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-10">
       {/* Left Side */}
-      <div className="relative h-screen min-h-[600px]">
+      <div className="relative min-h-[600px]">
         <div>
           <div className="bg-[#ff914d] mr-[30%] h-[50vh] md:h-[60vh] lg:h-[70vh] rounded"></div>
         </div>
@@ -49,12 +49,12 @@ const Content = () => {
             onMouseEnter={() => setCurrentImage(mezzz)} 
             onMouseLeave={() => setCurrentImage(me)}
             onClick={() => setCurrentImage((prev) => (prev === me ? mezzz : me))}
-            className="h-full w-full object-cover rounded transition-opacity duration-500 opacity-100" 
+            className="h-full w-full object-cover rounded transition-all duration-500 opacity-100" 
           />
         </div>
       </div>
 
-      <div className="bg-[#F5F5DC] rounded relative h-screen min-h-[600px] overflow-x-auto flex items-center justify-center">
+      <div className="bg-[#F5F5DC] rounded relative min-h-[600px] overflow-x-auto flex items-center justify-center">
         <div className="m-4 text-center max-w-2xl">
           <p className="text-[#322f2f] px-[20%] text-start">
             <p className="text-[#322f2f] font-bold text-xl mb-4">Web Developer</p>
@@ -77,7 +77,7 @@ const Content = () => {
     </div>
 
     {/**Projects */}
-    <div id="projects" className="relative min-h-screen bg-[#322f2f] rounded p-4 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)]">
+    <div id="projects" className="relative bg-[#322f2f] rounded p-4 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)]">
       {/* Project Image */}
       <p className="text-white text-start text-2xl font-bold uppercase mb-2 pb-2 border-b">{currentProject.name}</p>
       <div className="flex justify-center items-center w-full h-[70vh]">

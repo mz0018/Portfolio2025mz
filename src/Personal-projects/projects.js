@@ -10,7 +10,7 @@ const projects = [
     {
         "name": "Martinez e-commerce",
         "image": commerceImg,
-        "link":"locally hosted palang boi!",
+        "link":"https://mzcommerce.shop",
     },
 ];
 
